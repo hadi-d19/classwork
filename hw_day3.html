@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Progress Dashboard</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+    body{
+        margin: 20px;
+        background-color:#d0e3eb;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center text-danger">Course Progress Dashboard</h1><hr>
+    <ul class = "breadcrumb justify-content-center">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Courses</a></li>
+        <li class="breadcrumb-item active">Web Development</li>
+    </ul><hr>
+ <h2>Web Development<span class="badge badge-pill badge-info">New</span></h2>
+
+ <div>
+    <label><b>HTML</b></label>
+ <div class="progress-bar">
+  <div class="progress" style="height: 30px">
+    <br>
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width:100%">100% Completed</div>
+    </div></div>
+
+   <label><b>CSS</b></label>
+    <div class="progress" style="height: 30px">
+    <br>
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width:75%">75% Completed</div>
+    </div>
+
+    <label><b>JavaScript</b></label>
+    <div class="progress" style="height: 30px">
+    <br>
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:50%">50% Completed</div> 
+    </div>
+    
+    <label><b>Bootstrap</b></label>
+    <div class="progress" style="height: 30px">
+    <br>
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:25%">25% Completed</div>    
+    </div>
+</div>
+<div class="container text-center mt-3">
+<button type="button" class="btn btn-success">Start</button>
+<button type="button" class="btn btn-warning">Pause</button>
+<button type="button" class="btn btn-danger">Reset</button>
+</div><hr>
+
+<ul class="pagination justify-content-center mt-3">
+    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item disabled"><a class="page-link" href="#">3</a></li>
+    </ul>
+</body>
+</html>
