@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Support Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+    body{
+        margin: 20px;
+    }
+    .card-body{
+        background-color: #b6b6b6;
+    }
+  </style>
+</head>
+<!-- Create a simple FAQ section for a company's support page. Each question should be clickable and reveal the answer when clicked. Also, display three profile cards of customer support agents. Each card should have a name, role, and a button that reveals a small dropdown with quick actions like "Call", "Email", and "Message". -->
+<body>
+    <h1 class="text-center text-danger">Company's Support Page</h1>
+    <hr>
+    <h2 class="text-success">FAQs</h2><br>
+    <div id="accordian">
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed-card-link" data-toggle="collapse" href="#faq1">What is your return policy?</a>
+            </div>
+        <div id="faq1" class="collapse" data-parent="#accordian">
+            <div class="card-body">Our return policy allows returns within 30 days of purchase with a valid receipt.</div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed-card-link" data-toggle="collapse" href="#faq2">How can I track my order?</a>
+            </div>
+        <div id="faq2" class="collapse" data-parent="#accordian">
+            <div class="card-body">You can track your order using the tracking number provided in your confirmation email.
+            </div>        
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed-card-link" data-toggle="collapse" href="#faq3">Do you offer international shipping?</a>
+            </div>
+            <div id="faq3" class="collapse" data-parent="#accordian">
+                <div class="card-body">Yes, we offer international shipping to select countries. Please check our shipping policy for more details.                    
+                </div>               
+    </div>
+    </div>
+        </div>
+    <hr>
+    <h2 class="text-center text-dark">Customer Support Agents</h2><br>
+    <div class="card-deck">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://static.vecteezy.com/system/resources/thumbnails/020/181/164/small_2x/portrait-of-a-bearded-groom-photo.jpg" height="250" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">Agent 1</h4>
+                        <p class="card-text">Customer Support Agent</p> 
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Contact</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Call</a>
+                                <a class="dropdown-item" href="#">Email</a>
+                                <a class="dropdown-item" href="#">Message</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWVcx-iOe6uXBybdJPSaJB28nippyMap4kxw&s" height="250" width="100">
+                    <div class="card-body">
+                        <h4 class="card-title">Agent 2</h4>
+                        <p class="card-text">Technical Support Agent</p>    
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Contact</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Call</a>
+                                <a class="dropdown-item" href="#">Email</a>
+                                <a class="dropdown-item" href="#">Message</a>
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+            </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="https://thumbs.dreamstime.com/b/young-agent-4310180.jpg" height="250" width="100">
+                <div class="card-body">
+                    <h4 class="card-title">Agent 3</h4>
+                        <p class="card-text">Billing Support Agent</p>
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Contact</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Call</a>
+                                <a class="dropdown-item" href="#">Email</a>
+                                <a class="dropdown-item" href="#">Message</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
