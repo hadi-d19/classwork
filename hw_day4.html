@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Feature page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+ <style>
+    body{
+        margin: 20px;
+    }
+    .card-body{
+        background-color: rgb(252, 214, 220);
+    }
+ </style>
+  <!-- Create a "Product Feature Page" that displays 3 product cards in a row. Each card must include a header with the product name, an image, a short description, a link to read more, and a dropdown with extra options like "Add to Wishlist", "Compare", and "Report". Also include an accordion section at the bottom of the page to show product FAQs. Ensure the layout looks clean and professional using Bootstrap features only from today's topics. -->
+</head>
+<body>
+    <h1 class="text-center text-danger">Featured Products <i class="bi bi-apple"></i>
+</h1>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card-header">
+                    <h5 class="text-center">iPhone 17</h5>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-sage_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxZ3VBTlNROXF1MzBwZUoyNEVtMWw3aDQ5VWNJbUZTSkFodDQ1anBXVUVnSk9MekhWSGZtV1pvV240QzNuTk80VS9jVTIwcEJjL3Axby9SNE1La0phb1h5eFgwZnUzK2o2NmxjekV1UHpBT2c&traceId=1" height="250" width="100">
+                    <div class="card-body">
+                        <p>Sleek design, advanced performance, and all-day battery..</p>
+                        <a href="https://www.apple.com/in/shop/buy-iphone/iphone-17/6.3%22-display-256gb-sage?afid=p240%7Cgo~cmp-11189655312~adg-185494852299~ad-773651676880_pla-2440946347659~dev-c~ext-~prd-MG6N4HN%2FA-IN~mca-5055540~nt-search&cid=aos-in-kwgo-pla-iphone--product-MG6N4HN%2FA-IN">Read More...</a>
+                        <div class="dropdown">
+                            <button type="button" class="btm btn-primary dropdown-toggle btn-danger" data-toggle="dropdown">Options</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Add to Wishlist</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Compare</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-header">
+                    <h5 class="text-center">iPhone 17 PRO</h5>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-model-unselect-gallery-2-202509_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=dU9qRExIQUlQTzVKeDd1V1dtUE1MUWFRQXQ2R0JQTk5udUZxTkR3ZVlpTEJBSVhDREVhQVF4eThVb2E3Y2VibVB1OWIzMk5Pa05pM0VtRDBtTXRCK3dUMngwVnJycmY0WkN2ZnNvOUpFNFVySWdQb3VEUWpYcGVsTHFTOGJoTUlHSUJ3a0VmOGVMVEgzQ0RPMWN2TERB&traceId=1" height="250" width="100">
+                    <div class="card-body">
+                        <p>Pro-level speed, powerful camera system, and premium build.</p>
+                        <a href="https://www.apple.com/in/shop/buy-iphone/iphone-17-pro">Read More...</a>
+                        <div class="dropdown">
+                            <button type="button" class="btm btn-primary dropdown-toggle btn-danger" data-toggle="dropdown">Options</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Add to Wishlist</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Compare</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-header">
+                    <h5 class="text-center">iPhone Air</h5>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-unselect-gallery-3-202509_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsR3J2UHBBV3orM3VMYVQ4cFJXZmQxV0UrcUlEbEh2Rk1sa0ZoRVdlT2JpTnkwdVFSV09pcktsRHViVExZS1gwS3c3b3pFWnhZZ2g0M0pRR0pEdHVSRUVCbmQ0Y3E0b0pydENyQ250cHhKL0t3cTRYZVBvc1N2OUtxU3FEdDdFNThB&traceId=1" height="250" width="100">
+                    <div class="card-body">
+                        <p>Ultra-light, stylish, and built for everyday essentials..</p>
+                        <a href="https://www.apple.com/in/shop/buy-iphone/iphone-air">Read More...</a>
+                        <div class="dropdown">
+                            <button type="button" class="btm btn-primary dropdown-toggle btn-danger" data-toggle="dropdown" >Options</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Add to Wishlist</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Compare</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><hr>
+    <h2 class="text-success text-center">FAQs</h2>
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed-card-link" data-toggle="collapse" href="#faq1">Does the iPhone 17 series support 5G?</a>
+            </div>  
+            <div id="faq1" class="collapse" data-parent="#accordion">
+                <div class="card-body">Yes, all iPhone 17 models come with full 5G support.
+                </div>
+                </div>
+            </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed-card-link" data-toggle="collapse" href="#faq2">What storage options are available?</a>
+            </div>
+            <div id="faq2" class="collapse" data-parent="#accordion">
+                <div class="card-body">iPhone 17 models are available in 256GB, 512GB and 1TB variants.
+                </div>
+                </div>
+            </div>
+            <div class="card">
+            <div class="card-header">
+                <a class="collapsed-card-link" data-toggle="collapse" href="#faq3">Is wireless charging supported?</a>
+            </div>
+            <div id="faq3" class="collapse" data-parent="#accordion">
+                <div class="card-body">Yes, the iPhone 17 lineup supports fast wireless charging.
+                </div>
+            </div>
+    </div>
+</div>
+<hr>
+</body>
+</html>
